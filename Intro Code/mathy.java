@@ -22,6 +22,17 @@ public class mathy
 		square = array;
 
 	}
+	
+	/**
+	 * Creates and populates an array with random values
+	 * @param size - the number of random values 
+	 * @param range - the range of random values from 1 to range (1, range)
+	 * 
+	 */
+	public int[] poprandomArray ( int size, int range)
+	{
+	    return new int[10];
+	}
 
 
 	/**
