@@ -42,18 +42,10 @@ public class mathy
 
 
 
-
-
-
-//}end of class
-
-
-
-
 	/**
-		takes the odd numbers out of an array
-		@param int[] values int [] to be populated
-		@return int[] odd values in the array
+	*	takes the odd numbers out of an array
+	*	@param int[] values int [] to be populated
+	*	@return int[] odd values in the array
 	*/
 
 	public  void getOdd ( int[] num1, int odd [])
@@ -78,10 +70,10 @@ public class mathy
 
 
 	/**
-		takes the even numbers out of an num array
-		assigns values to evennum array
-		@param int[] values, int[] evenvalues
-		@none
+	*	takes the even numbers out of an num array
+	*	assigns values to evennum array
+	*	@param int[] values, int[] evenvalues
+	*	@none
 	*/
 
 
@@ -100,29 +92,7 @@ public class mathy
 
 
 
-	/**
-		two int parameters and adds them
-		@param 2 int values
-		@return int sum of values
-	*/
 
-
-	public int add (int x, int y)
-	{	//System.out.println(sum );
-		int sum;      //sum x and y are local var
-		sum = x+y;
-
-		return sum;
-
-
-	}//end of add
-
-
-	public double add (double x,double y)
-	{
-
-		return x+y;
-	}
 
 	/**
 			message from Mathy class
@@ -227,19 +197,6 @@ public class mathy
 		return array;
 
    }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
